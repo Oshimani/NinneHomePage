@@ -1,0 +1,35 @@
+/* Posting */
+
+.media {
+    transform: scale(1.0);
+    transition-duration: 100ms;
+    background-color: #f9ead6;
+    border: 5px #ffe3be solid;
+}
+
+/* Posting hover */
+
+.media:hover {
+    transform: scale(1.1);
+}
+
+/* Posting Picture */
+
+.media-object {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+}
+
+/* Posting Heading */
+
+.media-heading {
+    font-weight: bold;
+}
+/* Smarthpone */
+
+@media screen and (max-width: 767px) {
+    .media:hover {
+        transform: scale(1.0);
+    }
+}

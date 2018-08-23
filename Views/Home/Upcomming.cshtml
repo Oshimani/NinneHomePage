@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Anstehende öffentliche Auftritte";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<environment include="Development">
+    <link rel="stylesheet" href="~/css/gigs.css" />
+</environment>
+<environment exclude="Development">
+    <link rel="stylesheet" href="~/css/gigs.min.css" asp-append-version="true" />
+</environment>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/placeholderGig.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">
+            <span>Natürlich Blond - Das Tufa-Musical 2018 - Trier</span>
+            <span class="pull-right">14.09.2018 - 07.10.2018</span>
+        </h4>
+        <p>Wie einige ja bereits mitbekommen haben, habe ich dieses Jahr das große Glück, eine der Hauptrollen beim TUFA Musical „Natürlich Blond“ spielen zu dürfen. Als Elle Woods stehe ich neben ganz vielen tollen und talentierten Menschen vom 14.09. - 07.10. auf der Bühne im großen Saal der TUFA in Trier. Karten gibt’s <a target="_blank" href="https://www.ticket-regional.de/events_info.php?eventID=147221">hier</a> Ich freue mich über viele bekannte Gesichter 😊</p>
+    </div>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/placeholderGig.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">
+            <span>Placeholder Title</span>
+            <span class="pull-right">01.01.1970</span>
+        </h4>
+    <p>Placeholder Content. Content will be fetched from facebook page or DB.</p>
+    </div>
+</div>
