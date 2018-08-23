@@ -26,6 +26,7 @@
 .media-heading {
     font-weight: bold;
 }
+
 /* Smarthpone */
 
 @media screen and (max-width: 767px) {
