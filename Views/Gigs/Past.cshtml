@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Auftritte";
+    ViewData["Message"] = "Hallo!";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<environment include="Development">
+    <link rel="stylesheet" href="~/css/gigs.css" />
+</environment>
+<environment exclude="Development">
+    <link rel="stylesheet" href="~/css/gigs.min.css" asp-append-version="true" />
+</environment>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/tamaraKevin.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">Hochzeit von Tamara & Kevin</h4>
+        <p>Heute wieder eine wunderschöne Trauung 😊 Diesmal von Tamara & Kevin auf Schloss Kewenig - auch eine absolute Traumlocation, wie man auf den Bildern sehen kann ☺️.</p>
+    </div>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/alexandraChristian.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">Hochzeit von Alexandra & Christian</h4>
+        <p>Gestern durfte ich die Hochzeit von Alexandra und Christian in Überherrn in der kleinen Kapelle am Linslerhof begleiten. Es hat sich angefühlt wie eine kleine Weltreise, aber es hat sich gelohnt: die Location war ein Traum und ich bin froh, an einem so hoch nachgefragten Termin wie den 18.08.2018 ein so liebes Brautpaar mit einer so emotionalen Zeremonie gehabt zu haben☺️. Nach der Trauung durfte ich zur Überraschung noch für die Eltern des Brautpaars sowie die Schwester der Braut singen - da musste ich mich wirklich zusammenreißen 🙊.</p>
+    </div>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/manuelaDirk.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">Hochzeit von Manuela & Dirk</h4>
+        <p>Heute habe ich die kirchliche Trauung von Manuela und Dirk auf der wunderbaren Wildenburg bei Kempfeld begleitet. Ich durfte während der Trauung und anschließend zu Kaffee und Kuchen singen 🙂. Die Wildenburg ist für den Sommer eine absolute Traumlocation - wer noch auf der Suche nach der passenden Hochzeitslocation ist, sollte sich hier einmal umsehen 🙂.</p>
+    </div>
+</div>
+
+<div class="media">
+    <a class="pull-left" href="#">
+        <img class="media-object" src="/images/placeholderGig.jpg" alt="Image">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">Placeholder Title</h4>
+        <p>Placeholder Content. Content will be fetched from facebook page or DB.</p>
+    </div>
+</div>
+
+
+
